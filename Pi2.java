@@ -3,7 +3,7 @@ public class Pi2{
   public static void main(String[] args){
     System.out.println("Pi");
     Random randomGenerator = new Random();
-    int numOfPoints = 1000;
+    int numOfPoints = 10000000;
     int i = 0;
     int numOfCirclePoints = 0;
       while (i<numOfPoints) {
